@@ -8,14 +8,14 @@ public class Main
         {
             throw new ArgumentException("Array cannot be empty");
         }
-        int max = numbers[0];
+        int notWhatItShouldBe = numbers[0];
         foreach (int num in numbers)
         {
-            if (num > max)
+            if (num > notWhatItShouldBe)
             {
-                max = num;
+                notWhatItShouldBe = num;
             }
         }
-        return max;
+        return notWhatItShouldBe;
     }
 }
