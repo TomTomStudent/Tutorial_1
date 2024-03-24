@@ -1,0 +1,49 @@
+The github link to Tutorial 1 task: https://github.com/TomTomStudent/Tutorial_1
+
+Here are the aditional answers required for Tutorial 1:
+
+Task 3.3
+What default type of merge will git perform?
+	A fast-forward merge.
+
+Task 3.4
+$ git log --oneline --graph
+* 844cdcb (HEAD -> main, feature-average) Task 3
+* 48b8fa4 (origin/main) Modification 3
+* 9cfa68b Modification 2
+* c4afb4b Modification 1
+* 94d2df1 Initial commit 2 (The .NET console app had to be remade)
+* 1d01bcf Initial Project
+* a08fbef first commit
+
+Task 4.4
+$ git log --oneline --graph
+* 68fc0df (HEAD -> main, feature-max) Task 4
+* 844cdcb (feature-average) Task 3
+* 48b8fa4 (origin/main) Modification 3
+* 9cfa68b Modification 2
+* c4afb4b Modification 1
+* 94d2df1 Initial commit 2 (The .NET console app had to be remade)
+* 1d01bcf Initial Project
+* a08fbef first commit
+
+Task5.8
+$ git log --oneline --graph
+* 911bdb4 (HEAD -> main, origin/main) Task 5.7
+*   131a99b Merge
+|\
+| * 4c0c308 (feature-new) Task 5.3
+* | 9c6197d Task 5.5
+|/
+* 68fc0df (feature-max) Task 4
+* 844cdcb (feature-average) Task 3
+* 48b8fa4 Modification 3
+* 9cfa68b Modification 2
+* c4afb4b Modification 1
+* 94d2df1 Initial commit 2 (The .NET console app had to be remade)
+* 1d01bcf Initial Project
+* a08fbef first commit
+
+
+
+
