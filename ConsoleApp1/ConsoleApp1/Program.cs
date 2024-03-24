@@ -2,18 +2,20 @@
 
 public class Main
 {
-    public static double CalculateAverage(int[] numbers)
+    public static int FindMax(int[] numbers)
     {
         if (numbers.Length == 0)
         {
-            return 0;
+            throw new ArgumentException("Array cannot be empty");
         }
-        int sum = 0;
+        int max = numbers[0];
         foreach (int num in numbers)
         {
-            sum += num;
+            if (num > max)
+            {
+                max = num;
+            }
         }
-
-        return (double)sum / numbers.Length;
+        return max;
     }
 }
