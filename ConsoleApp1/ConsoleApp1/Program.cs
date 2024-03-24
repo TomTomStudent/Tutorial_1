@@ -8,14 +8,14 @@ public class Main
         {
             throw new ArgumentException("Array cannot be empty");
         }
-        int max = numbers[0];
+        int checkConflictVariable = numbers[0];
         foreach (int num in numbers)
         {
-            if (num > max)
+            if (num > checkConflictVariable)
             {
-                max = num;
+                checkConflictVariable = num;
             }
         }
-        return max;
+        return checkConflictVariable;
     }
 }
